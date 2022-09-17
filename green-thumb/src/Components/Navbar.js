@@ -1,11 +1,11 @@
 import React from 'react'
 export default function Navbar() {
-    const link="#";
+    const link="/";
     return (
         <>
-            <nav className="navbar navbar-expand-lg bg-light">
+            <nav className="navbar navbar-expand-lg bg-dark" >
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Navbar</a>
+                    <a className="navbar-brand" href="/">Green Thumb</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -15,22 +15,17 @@ export default function Navbar() {
                                 <a className="nav-link active" aria-current="page" href={link}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href={link}>Link</a>
+                                <a className="nav-link" href={link}>Collections</a>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href={link} role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href={link}>Action</a></li>
-                                    <li><a className="dropdown-item" href={link}>Another action</a></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href={link}>Something else here</a></li>
-                                </ul>
-                            </li>
+                           
                             <li className="nav-item">
-                                <a className="nav-link disabled">Disabled</a>
+                                <a className="nav-link" href={link}>About us</a>
                             </li>
+                           
+                            <li className="nav-item">
+                                <a className="nav-link" href={link}>Contact us</a>
+                            </li>
+                           
                         </ul>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
