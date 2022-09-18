@@ -3,15 +3,20 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import "../src/Styles/Animation.css";
 import About from "./Components/About";
+import plant from "./Components/component1";
+
 function App() {
   return (
+    <>
     <BrowserRouter>
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
-      </Routes>
+       </Routes>
     </BrowserRouter>
+    <h1>{plant()}</h1>
+    </>
   );
 }
 
