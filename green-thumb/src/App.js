@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
-import "./Animation.css";
+import "../src/Styles/Animation.css";
 import About from "./Components/About";
 function App() {
   return (
@@ -12,7 +12,6 @@ function App() {
         <Route path="/about" element={<About/>}/>
       </Routes>
     </BrowserRouter>
-
   );
 }
 
