@@ -14,7 +14,7 @@ const myStyle= {
   width :'300px', height :'300px',
 };
 
-function plant() {
+function Component1() {
   return (
     <Container className='hai'>
       <Row>
@@ -50,4 +50,4 @@ function plant() {
   );
 }
 
-export default plant;
+export default Component1;
