@@ -1,9 +1,10 @@
 import React from "react";
 import {Route, Routes, useNavigate} from 'react-router-dom'
+import Collections from "./Collections";
 
 export default function Home() {
   const navigate = useNavigate();
-  const navigateComponent1= ()=>{
+  const navigateCollections= ()=>{
     navigate('/collections');
   };
   return (
@@ -14,9 +15,9 @@ export default function Home() {
           Where you can buy any plant and we will deliver it straight to your
           door
         </div>
-        <button className="btn mt-5" onClick={navigateComponent1}>Explore</button>
+        <button className="btn mt-5" onClick={navigateCollections}>Explore</button>
         <Routes>
-            <Route path="/collections" element={<component1/>}/>
+            <Route path="/collections" element={<Collections/>}/>
         </Routes>
       </div>
     </>
