@@ -15,7 +15,11 @@ import '../Styles/index.css';
 
 function Component1() {
   return (
+    
+    
+    
     <Container className='hai'>
+      <Card.Title>                                                                                                                                                                                                                       .</Card.Title>
       <Row>
         <Col>
         <ReactRoundedImage
@@ -25,8 +29,10 @@ function Component1() {
           imageHeight="150"
           roundedSize="20"
           borderRadius="180"
-          align="center"
+          
+          hoverColor="#4A824A"
         />
+        <Card.Title>  .</Card.Title>
       <Card style={{ width: '10rem' }}><Button variant="outline-success" size='sm'><Card.Title>Swiss Cheese Plant</Card.Title></Button></Card>
         </Col>
         <Col>
@@ -37,7 +43,9 @@ function Component1() {
           imageHeight="150"
           roundedSize="20"
           borderRadius="180"
+          hoverColor="#4A824A"
         />
+        <Card.Title>      .</Card.Title>
         <Card style={{ width: '10rem' }}><Button variant="outline-success"><Card.Title>Howea Belmoreana</Card.Title></Button></Card>
         </Col>
         <Col>
@@ -48,10 +56,13 @@ function Component1() {
           imageHeight="150"
           roundedSize="20"
           borderRadius="180"
+          hoverColor="#4A824A"
           />
+          <Card.Title>      .</Card.Title>
         <Card style={{ width: '10rem' }}><Button variant="outline-success"><Card.Title>Ceratopteris Thalictroides</Card.Title></Button></Card>
         </Col>
       </Row>
+      <Card.Title>                                                                                                                                                                            .</Card.Title>
       <Row>
         <Col>
         <ReactRoundedImage
@@ -61,7 +72,9 @@ function Component1() {
           imageHeight="150"
           roundedSize="20"
           borderRadius="180"
+          hoverColor="#4A824A"
         />
+        <Card.Title>      .</Card.Title>
         
         <Card style={{ width: '10rem' }}><Button variant="outline-success"><Card.Title>Sisal Plant</Card.Title></Button></Card>
         </Col>
@@ -73,7 +86,9 @@ function Component1() {
           imageHeight="150"
           roundedSize="20"
           borderRadius="180"
+          hoverColor="#4A824A"
         />
+        <Card.Title>      .</Card.Title>
         <Card style={{ width: '10rem' }}><Button variant="outline-success"><Card.Title>Cape jasmine</Card.Title></Button></Card>
         </Col>
         <Col>
@@ -84,10 +99,13 @@ function Component1() {
           imageHeight="150"
           roundedSize="20"
           borderRadius="180"
+          hoverColor="#4A824A"
         />
+        <Card.Title>      .</Card.Title>
           <Card style={{ width: '10rem' }}><Button variant="outline-success"><Card.Title>Laceleaf plant</Card.Title></Button></Card>
         </Col>
       </Row>
+      <Card.Title>             .</Card.Title>
       
 
         
