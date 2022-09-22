@@ -3,8 +3,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import "../src/Styles/Animation.css";
 import About from "./Components/About";
-import Component1 from "./Components/Component1";
-//import Collections from "./Components/Collections"
+import Collections from "./Components/Collections";
 
 function App() {
   return (
@@ -13,7 +12,7 @@ function App() {
     <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/collections" element={<Component1/>}/>
+        <Route path="/collections" element={<Collections/>}/>
         <Route path="/about" element={<About/>}/>
        </Routes>
     </BrowserRouter>
