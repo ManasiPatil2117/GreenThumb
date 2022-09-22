@@ -6,8 +6,8 @@ function About() {
         <>
             <h2 className='text-center mb-3 text-bg-dark p-3'>About Us </h2>
             <br/>
-            <h4 className='mb-3 font-sansserif px-4'>Find Your New Favorite Plant</h4>
-            <p className='lh-base lead mb-2 text-center p-3'>
+            <h4 className='text-light mb-3 font-sansserif px-4'>Find Your New Favorite Plant</h4>
+            <p className='text-light lh-base lead mb-2 text-center p-3'>
                 Green Thumb is here to help strengthen your relationship with plants. We make buying plants easy by delivering healthy, ready-to-go plants to your door and setting you up with the tips and tricks you need to help your plants thrive. Plants make life better. We make plants easy.
             </p>
             <CardGroup >
