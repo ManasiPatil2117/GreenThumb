@@ -14,7 +14,7 @@ function Collections() {
                 cover={cover}
                 name={name}
               />
-              <button varient="outline-succuss">Buy</button>
+              
             </div>
           ) 
         )}

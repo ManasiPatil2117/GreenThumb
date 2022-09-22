@@ -3,6 +3,7 @@
 	width: 250px;
 	border-radius: 20px;
 	object-fit: cover;
+	border: 5px solid rgb(11, 170, 46);
 }
 
 .plant-item {
