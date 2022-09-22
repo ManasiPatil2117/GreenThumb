@@ -24,11 +24,6 @@ export default function Navbar() {
                                 <Link to="/about" className="nav-link">About us</Link>
                             </li>
                            
-                            <li className="nav-item">
-                                <Link to="/contact" className="nav-link">Contact us</Link>
-                                
-                            </li>
-                           
                         </ul>
                         <form className="d-flex" role="search">
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
