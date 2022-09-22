@@ -11,7 +11,7 @@ function About() {
                 Green Thumb is here to help strengthen your relationship with plants. We make buying plants easy by delivering healthy, ready-to-go plants to your door and setting you up with the tips and tricks you need to help your plants thrive. Plants make life better. We make plants easy.
             </p>
             <CardGroup >
-                <Card border="light" style={{ width: '18rem' }}>
+                <Card border="light" className='m-4 p-2' style={{ width: '18rem' }}>
                     <Card.Body className='mb-2 text-center rounded'>
                         <Card.Title className=' mb-2 text-center rounded'>Direct From the Greenhouse</Card.Title>
                         <Card.Text className='lead'>
@@ -19,7 +19,7 @@ function About() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card border="light" style={{ width: '18rem' }}>
+                <Card border="light" className='m-4 p-2' style={{ width: '18rem' }}>
                     <Card.Body className='bg-light mb-2 text-center rounded'>
                         <Card.Title >All the Guidance</Card.Title>
                         <Card.Text className='lead'>
@@ -27,7 +27,7 @@ function About() {
                         </Card.Text>
                     </Card.Body>
                 </Card>
-                <Card border="light" style={{ width: '18rem' }}>
+                <Card border="light" className='m-4 p-2' style={{ width: '18rem' }}>
                     <Card.Body className=' mb-2 text-center rounded'>
                         <Card.Title >Shipped to Your Door</Card.Title>
                         <Card.Text className='lead'>
