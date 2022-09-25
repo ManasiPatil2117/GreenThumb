@@ -1,7 +1,10 @@
 import React,{Component} from 'react'
-//import { useNavigate } from 'react-router-dom';
+//import { Route, useNavigate, Routes } from 'react-router-dom';
+
 //import { BrowserRouter as Router, Route,Switch, Redirect} from 'react-router-dom'
-import Buy from './Buy'
+
+//import Buy from './Buy'
+
 
 export default class Modal extends Component{
   
@@ -10,7 +13,8 @@ export default class Modal extends Component{
             display: 'block',
             backgroundColor: 'rgba(0,0,0,0.8)',
         }
-
+        
+        
 
 
         return(
@@ -24,7 +28,8 @@ export default class Modal extends Component{
       <div className="modal-body">
         <img src={this.props.cover} className="img-fluid" alt=''/>
         <p>{this.props.desc}</p>
-        <button type="button" class="btn btn-outline-success" onClick={Buy}>Buy</button>
+        
+        <button type="button" class="btn btn-outline-success">Buy</button>
         
       </div>
       

@@ -23,6 +23,10 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <Link to="/about" className="nav-link">About us</Link>
                             </li>
+
+                            <li className="nav-item">
+                                <Link to="/buy" className="nav-link">Buy</Link>
+                            </li>
                            
                         </ul>
                         <form className="d-flex" role="search">

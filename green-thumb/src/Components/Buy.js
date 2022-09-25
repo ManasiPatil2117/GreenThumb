@@ -2,14 +2,17 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, InputGroup, Row} from 'react-bootstrap';
 
+
 export default function Buy() {
-  
+    let MyStyle ={
+        color: 'white',
+    }
     return (
 
 
 <>
-    <h3 className="text-center ">Contact Information..</h3>
-<form className="container mt-3 mb-3">
+    <h3 className="text-center " style={MyStyle}>Contact Information..</h3>
+<form className="container mt-3 mb-3" style={MyStyle}>
     <Row className="mb-3">
         <Form.Group controlId="formBasicEmail" className="col col-sm-6" >
             <Form.Label>First Name</Form.Label>
@@ -34,7 +37,7 @@ export default function Buy() {
                 <Form.Control aria-label="Recipient's username" aria-describedby="basic-addon2" type="email" name="email"  />
                 <InputGroup.Text id="basic-addon2">@gmail.com</InputGroup.Text>
                 
-            </InputGroup><Form.Text className="text-muted">
+            </InputGroup><Form.Text  style={MyStyle}>
           We'll never share your email with anyone else.
         </Form.Text>
         </Form.Group>
