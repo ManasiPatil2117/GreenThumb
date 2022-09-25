@@ -81,7 +81,7 @@ export default function Buy() {
                 <option value="two">2</option>
                 <option value="three">3</option>
                 <option value="four">4</option>
-                <option value="five">5+</option>
+                <option value="five">5</option>
             </Form.Select>
         </Form.Group>
         <Form.Group controlId="formGridlabel" className="col col-sm-6">

@@ -1,4 +1,5 @@
 import React,{Component} from 'react'
+//import { Navigate } from 'react-router-dom'
 //import { Route, useNavigate, Routes } from 'react-router-dom';
 
 //import { BrowserRouter as Router, Route,Switch, Redirect} from 'react-router-dom'
@@ -13,10 +14,7 @@ export default class Modal extends Component{
             display: 'block',
             backgroundColor: 'rgba(0,0,0,0.8)',
         }
-        
-        
-
-
+      
         return(
             <div className="modal show fade" style={modelStyle}>
   <div className="modal-dialog">

@@ -25,7 +25,7 @@ export default function Navbar() {
                             </li>
 
                             <li className="nav-item">
-                                <Link to="/buy" className="nav-link">Buy</Link>
+                                <Link to="/buy" className="nav-link d-none">Buy</Link>
                             </li>
                            
                         </ul>
