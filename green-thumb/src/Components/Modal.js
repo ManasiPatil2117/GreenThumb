@@ -1,10 +1,11 @@
 import React,{Component} from 'react'
 //import { Navigate } from 'react-router-dom'
-//import { Route, useNavigate, Routes } from 'react-router-dom';
-
+//import { Navigate } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom';
+import NavigateBuy from './NavBuy'
 //import { BrowserRouter as Router, Route,Switch, Redirect} from 'react-router-dom'
 
-//import Buy from './Buy'
+import Buy from './Buy'
 
 
 export default class Modal extends Component{
@@ -26,9 +27,12 @@ export default class Modal extends Component{
       <div className="modal-body">
         <img src={this.props.cover} className="img-fluid" alt=''/>
         <p>{this.props.desc}</p>
-        
-        <button type="button" class="btn btn-outline-success">Buy</button>
-        
+      </div>
+      <div className="modal-footer">
+        <button type="button" class="btn btn-outline-success" onClick={NavigateBuy}>Buy</button>
+        <Routes>
+          <Route path="/buy" element={<Buy/>}></Route>
+        </Routes>
       </div>
       
     </div>
