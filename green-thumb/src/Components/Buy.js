@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Form, InputGroup, Row} from 'react-bootstrap';
 
-class Buy extends Component {
-  render() {
+export default function Buy() {
+  
     return (
 
 
@@ -103,8 +103,8 @@ class Buy extends Component {
 </form>
 </>
     );
-  }
+  
        
 }
 
-export default Buy;
+//export default Buy;
