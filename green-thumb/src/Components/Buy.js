@@ -48,8 +48,8 @@ export default function Buy() {
             <Form.Control className="form-control" type="text" name="address1"  />
         </Form.Group>
         <Form.Group className="col col-sm-6" controlId="formGridAddress2">
-            <Form.Label>Address 2</Form.Label>
-            <Form.Control className="form-control" name="address2"  type="text" />
+            <Form.Label>Plant Name</Form.Label>
+            <Form.Control className="form-control" name="plantName"  type="text" />
         </Form.Group>
     </Row>
     <Row className="mb-3">
