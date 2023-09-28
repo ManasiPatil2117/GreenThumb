@@ -4,6 +4,10 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function About() {
     return (
         <>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero explicabo debitis a neque eius quasi dignissimos iure dolores, recusandae esse necessitatibus pariatur voluptates, totam ipsum repellat dolorum architecto unde quidem.
+
+        </div>
             <h2 className='text-center mb-3 text-bg-dark p-3'>About Us </h2>
             <br/>
             <h4 className='text-light mb-3 font-sansserif px-4'>Find Your New Favorite Plant</h4>
